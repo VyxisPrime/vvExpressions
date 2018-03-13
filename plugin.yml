@@ -1,0 +1,188 @@
+name: VVExpressions3
+main: expressions.src.Main
+version: 1.0
+description: VVExpressions adds a wide variety of commands that make you able to express your feelings, also does it implement easy commands to help admins out
+commands:
+  join:
+    description: Tell someone how to join expressionscraft
+    permission: expressions.general.join
+    permission-message: You don't have permission
+  rankup:
+    description: Tell someone how to rank up
+    permission: expressions.general.rankup
+    permission-message: You don't have permission
+  hug:
+    description: Hug with someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Hug someone!
+  love:
+    description: Love someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Love someone!
+  kiss:
+    description: Kiss someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Kiss someone!
+  welcome:
+    description: Welcome someone new!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Welcome someone!
+  cuddle:
+    description: Cuddle with someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Cuddle someone!
+  congrat:
+    description: Congratulate Someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission
+  apologize:
+    description: Apologize to Someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to apologize at someone!
+  clap:
+    description: clap at Someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to clap at someone!
+  dance:
+    description: dance with someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to dance someone!
+  wave:
+    description: wave at someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission
+  blush:
+    description: blush!
+    permission: expressions.express.low
+    permission-message: You don't have permission
+  flip:
+    description: Flip someone!
+    permission: expressions.express.mid
+    permission-message: You don't have permission to Flip someone!
+  highfive:
+    description: Highfive with someone
+    permission: expressions.express.mid
+    permission-message: You don't have permission to Highfive with someone!
+  stahp:
+    description: Stahp someone!
+    permission: expressions.express.mid
+    permission-message: You don't have permission to Stahp someone!
+  cry:
+    description: cry with someone
+    permission: expressions.express.mid
+    permission-message: You don't have permission to cry with someone!
+  annoy:
+    description: annoy with someone
+    permission: expressions.express.mid
+    permission-message: You don't have permission to annoy with someone!
+  beg:
+    description: beg with someone
+    permission: expressions.express.mid
+    permission-message: You don't have permission to beg with someone!
+  snap:
+    description: Snap at someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to Snap at someone!
+  murder:
+    description: Murder someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to Murder someone!
+  slap:
+    description: Slap someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to Slap someone!
+  punch:
+    description: Punch Someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to Punch someone!
+  teabag:
+    description: Teabag someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission
+  Flick:
+    description: Flick someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to Flick someone!
+  fire:
+    description: fire someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to fire someone!
+  arrow:
+    description: arrow someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to arrow someone!
+  risen:
+    description: rissen someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission
+  revive:
+    description: revive someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to revive someone!
+  heal:
+    description: heal someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to heal someone!
+  cast:
+    description: Cast someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission to Cast someone!
+  poke:
+    description: Poke someone!
+    permission: expressions.express.high
+    permission-message: You don't have permission
+  tackle:
+    description: Tackle with someone with love!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Tackle someone!
+  fistbump:
+    description: Fistbump with someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to Fistbump with someone!
+  headbang:
+    description: Headbang with someone!
+    permission: expressions.express.low
+    permission-message: You don't have permission to headbang with someone!
+  eyepoke:
+    description: Poke someone in the eye!
+    permission: expressions.express.low
+    permission-message: You don't have permission to poke someone in the eye!
+  vv:
+    description: Who created this plugin and help ofcourse.
+    permission: expressions.express.low
+    permission-message: You dont have permission to see who created  this plugin and get help!
+  rules:
+    description: Rules of the server
+    permission: expressions.general.rules
+    permissions-message: You dont have permissions to send the rules!
+  yolobatt:
+    description: Yolobatt someone!
+    permission: expressions.general.admin
+    permission-message: You don't have permission to Yolobatt someone!
+permissions:
+  expressions.general.rankup:
+    description: allows people to do everyone expression commands
+    children:
+      expressions.express.*: false
+  expressions.general.join:
+    description: allows people to do everyone expression commands
+    children:
+      expressions.express.*: false
+  expressions.general.rules:
+    description: allows people to do everyone expression commands
+    children:
+      expressions.express.*: false
+  expressions.express.low:
+    description: allows people to do low expression commands
+    children:
+      expressions.express.*: false
+  expressions.express.mid:
+    description: allows people to do mid expression commands
+    children:
+      expressions.express.*: false
+  expressions.express.high:
+    description: allows people to do high expression commands
+    children:
+      expressions.express.*: false
+  expressions.general.admin:
+    description: allows people to use admin commands of the plugin

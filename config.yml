@@ -1,0 +1,119 @@
+Messages:
+  Commands:
+    Hug:
+      single: '&d wants a hug!'
+      targeted: '&d hugs &r'
+    Love:
+      single: '&c wants some love!'
+      targeted: '&c love &r'
+    Kiss:
+      single: '&c wants a kiss!'
+      targeted: '&c kisses &r'
+    Welcome:
+      single: '&3 says welcome '
+      targeted:
+        first_half: '&3 welcomes &r'
+        second_half: ' &3 to the server'
+    Cuddle:
+      single: '&d wants to cuddle!'
+      targeted: '&d cuddles &r'
+    Congratulate:
+      single: '&3 congratulates!'
+      targeted: '&3 congratualtes &r'
+    Apologize:
+      single: '&e apologisez for his behaviour.'
+      target: '&e apologizes to &r'
+    Clap:
+      single: '&a claps'
+      targeted: '&a claps at &r'
+    Dance:
+      single: '&9 dances to the beat!'
+      targeted: '&9 dances with &r'
+    Wave:
+      single: '&b waves!'
+      targeted: '&b waves at &r'
+    Blush:
+      single: '&b blushes!'
+      targeted: '&b blushes at &r'
+    Flip:
+      single: '&9 flips!'
+      targeted: '&9 flips at &r'
+    Highfive:
+      single: '&9 wants a highfive!'
+      targeted: '&9 highfives with &r'
+    Stahp:
+      single: '&r wants everyone to &cSTAHP!'
+      targeted:
+        first_half: '&r wants '
+        second_half: '&r to &cSTAHP '
+    Cry:
+      single: '&9 starts to cry!'
+      targeted: '&9 cries at &r'
+    Annoy:
+      single: '&c is starting to annoy!'
+      targeted: '&c is annoyed by &r'
+    Beg:
+      single: '&b begs!'
+      targeted: '&b begs at &r'
+    Snap:
+      single: '&9 snaps!'
+      targeted: '&9 snaps at &r'
+    Murder:
+      single: '&c feels an urge to murder!'
+      targeted: '&c murders &r'
+    Slap:
+      single: '&9 has an urg to slap someone!'
+      targeted: '&9 slaps &r'
+    Punch:
+      single: '&c wants to punch someone in the face!'
+      targeted: '&c punches &r'
+    Flick:
+      single: '&9 flicks!'
+      targeted: '&9 flicks at &r'
+    Arrow:
+      single: '&4 mentions an arrow to the knee'
+      targeted: '&4 shoots an arrow in the knee of &r'
+    Risen:
+      single: '&9 starts rises people from the dead!'
+      targeted:
+        first_half: '&9 rises &r'
+        second_half: '&9 from the dead &r'
+    Revive:
+      single: '&1 casts revive'
+      targeted: '&1 revives '
+    Heal:
+      single: '&3 starts to cast a heal spell!'
+      targeted: '&3 heals &r'
+    Cast:
+      single: '&6 starts to cast a spell!'
+      targeted: '&6 casts a spell on &r'
+    Poke:
+      single: '&3 wants to poke someone!'
+      targeted: '&3 pokes &r'
+    Teabag:
+      single: '&5 scratches the bag of tea!'
+      targeted: '&5 teabags &r'
+    Tackle:
+      single: '&e in the mood to tackle some people!'
+      targeted:
+        first_half: '&e tackles'
+        second_half: '&e with love'
+    Eyepoke:
+      single: '&6 wants to poke someones eyes out!'
+      targeted:
+        first_half: '&6 pokes &r'
+        second_half: '&6 in the eye!'
+    Headbang:
+      single: '&3 starts to headbang!'
+      targeted: '&3 headbangs with &r'
+    Fistbump:
+      single: '&c raises his fist!'
+      targeted: '&c fistbumps with &r'
+    Join: 'To become a member create a &cbuild&r and let it be &breviewed&r by one of the &cStaff Members&'
+    Rankup: 'To &6rank&r up, have your completed build &breviewed&r by staff'
+    Rules: 'Our rules are stated at the &bRules Board&r via the &aRules Portal&r at &cSpawn&r.'
+  Permissions:
+    self_command: '&8[&3VVExpressions&8]&c You can not use expressions on yourself use
+      /<expression>'
+    nopermission: '&8[&3VVExpressions&8]&c You do not have permissions to use this command!'
+    console: 'Console can not cast this command'
